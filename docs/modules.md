@@ -4,7 +4,6 @@
 
 ## Table of contents
 
-### Modules
+### Classes
 
-- [EventEmitter](modules/eventemitter.md)
-- [api](modules/api.md)
+- [EventEmitter](classes/EventEmitter.md)

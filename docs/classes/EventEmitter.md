@@ -1,32 +1,29 @@
-[@nbsolutions/event - v0.0.0](../README.md) / [Exports](../modules.md) / [EventEmitter](../modules/eventemitter.md) / EventEmitter
+[@nbsolutions/event - v0.0.0](../README.md) / [Exports](../modules.md) / EventEmitter
 
 # Class: EventEmitter
-
-[EventEmitter](../modules/eventemitter.md).EventEmitter
 
 ## Hierarchy
 
 - `NBSObject`
 
-  ↳ **EventEmitter**
+  ↳ **`EventEmitter`**
 
 ## Table of contents
 
 ### Constructors
 
-- [constructor](eventemitter.eventemitter-1.md#constructor)
+- [constructor](EventEmitter.md#constructor)
 
 ### Methods
 
-- [\_emit](eventemitter.eventemitter-1.md#_emit)
-- [\_excludeNBSObjectAutoBindingsFor](eventemitter.eventemitter-1.md#_excludenbsobjectautobindingsfor)
-- [\_off](eventemitter.eventemitter-1.md#_off)
-- [\_on](eventemitter.eventemitter-1.md#_on)
-- [\_skipNBSObjectAutoBind](eventemitter.eventemitter-1.md#_skipnbsobjectautobind)
-- [getClassName](eventemitter.eventemitter-1.md#getclassname)
-- [testBind](eventemitter.eventemitter-1.md#testbind)
-- [getClassName](eventemitter.eventemitter-1.md#getclassname)
-- [isVoid](eventemitter.eventemitter-1.md#isvoid)
+- [\_emit](EventEmitter.md#_emit)
+- [\_excludeNBSObjectAutoBindingsFor](EventEmitter.md#_excludenbsobjectautobindingsfor)
+- [\_off](EventEmitter.md#_off)
+- [\_on](EventEmitter.md#_on)
+- [\_skipNBSObjectAutoBind](EventEmitter.md#_skipnbsobjectautobind)
+- [getClassName](EventEmitter.md#getclassname)
+- [getClassName](EventEmitter.md#getclassname)
+- [isVoid](EventEmitter.md#isvoid)
 
 ## Constructors
 
@@ -40,7 +37,7 @@ NBSObject.constructor
 
 #### Defined in
 
-src/EventEmitter.ts:6
+[src/EventEmitter.ts:8](https://github.com/nbsolutions-ca/event/blob/d5ae8fc/src/EventEmitter.ts#L8)
 
 ## Methods
 
@@ -61,7 +58,7 @@ src/EventEmitter.ts:6
 
 #### Defined in
 
-src/EventEmitter.ts:30
+[src/EventEmitter.ts:30](https://github.com/nbsolutions-ca/event/blob/d5ae8fc/src/EventEmitter.ts#L30)
 
 ___
 
@@ -100,7 +97,7 @@ ___
 
 #### Defined in
 
-src/EventEmitter.ts:21
+[src/EventEmitter.ts:21](https://github.com/nbsolutions-ca/event/blob/d5ae8fc/src/EventEmitter.ts#L21)
 
 ___
 
@@ -121,7 +118,7 @@ ___
 
 #### Defined in
 
-src/EventEmitter.ts:13
+[src/EventEmitter.ts:13](https://github.com/nbsolutions-ca/event/blob/d5ae8fc/src/EventEmitter.ts#L13)
 
 ___
 
@@ -161,24 +158,6 @@ node_modules/@nbsolutions/object/types/NBSObject.d.ts:26
 
 ___
 
-### testBind
-
-▸ **testBind**(): `NBSObject`
-
-#### Returns
-
-`NBSObject`
-
-#### Inherited from
-
-NBSObject.testBind
-
-#### Defined in
-
-node_modules/@nbsolutions/object/types/NBSObject.d.ts:25
-
-___
-
 ### getClassName
 
 ▸ `Static` **getClassName**(`o`): `string`
@@ -205,7 +184,7 @@ ___
 
 ### isVoid
 
-▸ `Static` **isVoid**<T\>(`o`): `boolean`
+▸ `Static` **isVoid**<`T`\>(`o`): `boolean`
 
 Returns true if the given value is `null` or `undefined`
 
@@ -213,7 +192,7 @@ Returns true if the given value is `null` or `undefined`
 
 | Name | Type |
 | :------ | :------ |
-| `T` | `T` = `any` |
+| `T` | `any` |
 
 #### Parameters
 
