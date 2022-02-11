@@ -1,1 +1,1 @@
-@nbsolutions/event - v0.0.0 / [Exports](modules.md)
+@nbsolutions/event - v0.0.1 / [Exports](modules.md)

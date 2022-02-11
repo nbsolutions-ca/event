@@ -1,4 +1,4 @@
-[@nbsolutions/event - v0.0.0](../README.md) / [Exports](../modules.md) / EventEmitter
+[@nbsolutions/event - v0.0.1](../README.md) / [Exports](../modules.md) / EventEmitter
 
 # Class: EventEmitter
 
@@ -37,7 +37,7 @@ NBSObject.constructor
 
 #### Defined in
 
-[src/EventEmitter.ts:8](https://github.com/nbsolutions-ca/event/blob/d5ae8fc/src/EventEmitter.ts#L8)
+[src/EventEmitter.ts:8](https://github.com/nbsolutions-ca/event/blob/aa0ae28/src/EventEmitter.ts#L8)
 
 ## Methods
 
@@ -58,7 +58,7 @@ NBSObject.constructor
 
 #### Defined in
 
-[src/EventEmitter.ts:30](https://github.com/nbsolutions-ca/event/blob/d5ae8fc/src/EventEmitter.ts#L30)
+[src/EventEmitter.ts:30](https://github.com/nbsolutions-ca/event/blob/aa0ae28/src/EventEmitter.ts#L30)
 
 ___
 
@@ -97,7 +97,7 @@ ___
 
 #### Defined in
 
-[src/EventEmitter.ts:21](https://github.com/nbsolutions-ca/event/blob/d5ae8fc/src/EventEmitter.ts#L21)
+[src/EventEmitter.ts:21](https://github.com/nbsolutions-ca/event/blob/aa0ae28/src/EventEmitter.ts#L21)
 
 ___
 
@@ -118,7 +118,7 @@ ___
 
 #### Defined in
 
-[src/EventEmitter.ts:13](https://github.com/nbsolutions-ca/event/blob/d5ae8fc/src/EventEmitter.ts#L13)
+[src/EventEmitter.ts:13](https://github.com/nbsolutions-ca/event/blob/aa0ae28/src/EventEmitter.ts#L13)
 
 ___
 
