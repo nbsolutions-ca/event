@@ -1,4 +1,4 @@
-[@nbsolutions/event - v0.0.1](../README.md) / [Exports](../modules.md) / EventEmitter
+[@nbsolutions/event - v0.0.2](../README.md) / [Exports](../modules.md) / EventEmitter
 
 # Class: EventEmitter
 
@@ -7,6 +7,10 @@
 - `NBSObject`
 
   ↳ **`EventEmitter`**
+
+## Implements
+
+- `IEventEmitter`
 
 ## Table of contents
 
@@ -22,7 +26,7 @@
 - [\_on](EventEmitter.md#_on)
 - [\_skipNBSObjectAutoBind](EventEmitter.md#_skipnbsobjectautobind)
 - [getClassName](EventEmitter.md#getclassname)
-- [getClassName](EventEmitter.md#getclassname)
+- [getClassName](EventEmitter.md#getclassname-1)
 - [isVoid](EventEmitter.md#isvoid)
 
 ## Constructors
@@ -37,7 +41,7 @@ NBSObject.constructor
 
 #### Defined in
 
-[src/EventEmitter.ts:8](https://github.com/nbsolutions-ca/event/blob/aa0ae28/src/EventEmitter.ts#L8)
+[src/EventEmitter.ts:9](https://github.com/nbsolutions-ca/event-js/blob/6f39d2a/src/EventEmitter.ts#L9)
 
 ## Methods
 
@@ -58,7 +62,7 @@ NBSObject.constructor
 
 #### Defined in
 
-[src/EventEmitter.ts:30](https://github.com/nbsolutions-ca/event/blob/aa0ae28/src/EventEmitter.ts#L30)
+[src/EventEmitter.ts:31](https://github.com/nbsolutions-ca/event-js/blob/6f39d2a/src/EventEmitter.ts#L31)
 
 ___
 
@@ -97,7 +101,7 @@ ___
 
 #### Defined in
 
-[src/EventEmitter.ts:21](https://github.com/nbsolutions-ca/event/blob/aa0ae28/src/EventEmitter.ts#L21)
+[src/EventEmitter.ts:22](https://github.com/nbsolutions-ca/event-js/blob/6f39d2a/src/EventEmitter.ts#L22)
 
 ___
 
@@ -118,7 +122,7 @@ ___
 
 #### Defined in
 
-[src/EventEmitter.ts:13](https://github.com/nbsolutions-ca/event/blob/aa0ae28/src/EventEmitter.ts#L13)
+[src/EventEmitter.ts:14](https://github.com/nbsolutions-ca/event-js/blob/6f39d2a/src/EventEmitter.ts#L14)
 
 ___
 
@@ -147,6 +151,10 @@ ___
 #### Returns
 
 `string`
+
+#### Implementation of
+
+IEventEmitter.getClassName
 
 #### Inherited from
 
