@@ -1,8 +1,9 @@
 /* eslint-disable @typescript-eslint/ban-types */
 
 import {NBSObject} from '@nbsolutions/object';
+import { IEventEmitter } from '@nbsolutions/interfaces';
 
-export class EventEmitter extends NBSObject {
+export class EventEmitter extends NBSObject implements IEventEmitter {
     private $callbacks: Record<string, Function[]>;
 
     public constructor() {
