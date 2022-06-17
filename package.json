@@ -1,6 +1,6 @@
 {
   "name": "@nbsolutions/event",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Standard event library for the NBS framework",
   "main": "./lib/api.js",
   "types": "./types/api.d.ts",
